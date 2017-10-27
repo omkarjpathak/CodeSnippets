@@ -1,0 +1,3 @@
+Example kernel module to read from a file and write to a file.
+Though it is not advised to read from or write to files from
+a kernel module, this has been done for test purpose only.
