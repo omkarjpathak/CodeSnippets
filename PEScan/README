@@ -1,0 +1,4 @@
+PEScan stands for Portable Executable files Scanner. PE is the windows executable files format. PEScan is a simple command line scanner which scans Windows executable files for patterns provided by users.
+Detection.cpp covers the scanning logic for the same.
+Repair.cpp executes the repair routines for corresponding malware once it's detected in a file.
+PEscan.cpp is the main file which invokes detection and repair routines from the respective files.
