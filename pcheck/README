@@ -1,0 +1,13 @@
+pcheck: Pipeline Check
+
+Purpose: Utility to monitor the status of the submitted pipelines. The status
+could be running, failed , finished or suspended. Along with the status, it
+also displays the tartan run directory associated with the pipeline, date at
+which the job was submitted on the cluster, project/subproject, analysis type,
+samples in the analysis run and debug information. Pcheck uses the raptr 
+database to check status of analysis and also needs access to the tartan
+filesystem in order to create/move/delete analysis run directories.
+
+tartan_run.py file manages the creation or tartan_run directories for analyses.
+It creates various temporary files in the directory and monitors the status 
+using the existence or non-existence of those files.
