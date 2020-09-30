@@ -1,0 +1,8 @@
+ARIFO: Automated Research Intake Filler Outer
+
+Purpose: Fill out the intake configs for samples submitted by analysts that 
+are ready to enter the pipeline. Notify the analyst that intakes have been
+kicked off.
+
+Core.py covers the core functionality of project arifo and acts as an entry
+point.
