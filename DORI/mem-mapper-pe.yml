@@ -1,0 +1,30 @@
+reffa:
+    class: File
+    path: ../../../reference/GRCh38_no_alt/GRCh38_no_alt.fa
+fastqs:
+  - class: File
+    path: ../../../NA19238/fastq/raw/SRR7781453_R1_0000.fq.gz
+  - class: File
+    path: ../../../NA19238/fastq/raw/SRR7781453_R1_0001.fq.gz
+  - class: File
+    path: ../../../NA19238/fastq/raw/SRR7781453_R1_0002.fq.gz
+  - class: File
+    path: ../../../NA19238/fastq/raw/SRR7781453_R1_0003.fq.gz
+fastq2s:
+  - class: File
+    path: ../../../NA19238/fastq/raw/SRR7781453_R2_0000.fq.gz
+  - class: File
+    path: ../../../NA19238/fastq/raw/SRR7781453_R2_0001.fq.gz
+  - class: File
+    path: ../../../NA19238/fastq/raw/SRR7781453_R2_0002.fq.gz
+  - class: File
+    path: ../../../NA19238/fastq/raw/SRR7781453_R2_0003.fq.gz
+output_bam: SRR7781453_pe.tmp.bam
+threads: 1
+K: 100000000
+Y: true
+Rs:
+  - "@RG\\tID:r1234\\tSM:SRR7781453\\tLB:NA19238-um-r2-NWD967078-o.Broad\\tPL:illumina\\tPU:platform_unit\\tCN:broad"
+  - "@RG\\tID:r1234\\tSM:SRR7781453\\tLB:NA19238-um-r2-NWD967078-o.Broad\\tPL:illumina\\tPU:platform_unit\\tCN:broad"
+  - "@RG\\tID:r1234\\tSM:SRR7781453\\tLB:NA19238-um-r2-NWD967078-o.Broad\\tPL:illumina\\tPU:platform_unit\\tCN:broad"
+  - "@RG\\tID:r1234\\tSM:SRR7781453\\tLB:NA19238-um-r2-NWD967078-o.Broad\\tPL:illumina\\tPU:platform_unit\\tCN:broad"
