@@ -1,0 +1,13 @@
+DORI: DevOps Research Initiative
+
+Purpose: Project DORI intends to automate the various research processes that
+are currently handled manually. We are going to implement the processes using
+CWL workflows. There will be a separate workflow for each pipeline namely
+mapping, SNV and InDel detection, SV and coverage. There would be QC step at
+the end of each stage. We are using BWA for mapping, the CWL script covers the
+workflow and yml file has the information about the inputs and outputs.
+
+bwa-mem.cwl: CWL workflow to run BWA for mapping
+mem-mapper.cwl: Split fastqs into chunks, map, merge the mapped bams together,
+	remove duplicates, sort the sequences with co-ordinates.
+mem-mapper-pe.yml: Input/outputs for the CWL workflow.
